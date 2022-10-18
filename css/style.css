@@ -14,15 +14,14 @@
 }
 
 .container-grigio{
-        background-color: grey;
-        padding: 50px;
+        background-color: lightgray;
+        padding: 50px 0;
 }
 
 .container-bianco{
         background-color: white;
-
-
-
+        margin: 0 auto;
+        max-width: 1000px;
 
 }
 .button{
@@ -67,8 +66,9 @@
         display: inline-block;
 }
 .container-pulsanti{
-        border-bottom: 1px solid grey;
-        padding-left: 110px;
+        border-bottom: 1px solid lightgray;
+        padding: 5px 110px;
+
 }
 .arrow-down{
         width: 0; 
@@ -104,7 +104,7 @@
         cursor: pointer;
         border: none;
         vertical-align: middle;
-        padding: 10px 10px;
+        padding: 0 10px;
         border-radius: 20px;
 }
 .tag-lightblue{
