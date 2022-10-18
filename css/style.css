@@ -1,5 +1,4 @@
 *{ 
-        padding: 0;
         margin: 0;
         box-sizing: border-box;     
 }
@@ -14,8 +13,17 @@
         display: inline-block;
 }
 
-.container-main{
+.container-grigio{
         background-color: grey;
+        padding: 50px;
+}
+
+.container-bianco{
+        background-color: white;
+
+
+
+
 }
 .button{
         background-color: #57dff6;
@@ -29,13 +37,15 @@
         cursor: pointer;
         border: none;
         vertical-align: middle;
+        padding: 10px 10px;
+        border-radius: 5px;
 
 
 }
 
 .button2{
-        background-color: #57dff6;
-        color: white;
+        background-color: white;
+        color: grey;
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -43,8 +53,10 @@
         font-size: 16px;
         margin: 4px 2px;
         cursor: pointer;
-        border: none;
+        border: 1px solid grey;
         vertical-align: middle;
+        padding: 10px 10px;
+        border-radius: 5px;
 }
 .bt1{
         display: inline-block;
@@ -54,4 +66,7 @@
 .bt2{
         display: inline-block;
 }
-
+.container-pulsanti{
+        border-bottom: 1px solid grey;
+        padding-left: 110px;
+}
